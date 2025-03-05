@@ -2,36 +2,36 @@
 
 # Test on ubuntu1804 & 2004
 
-# Make sure running as root
+# ROOT 确认
 if [ `id -u` -ne 0 ]; then
     echo "Error: This file has to be run with superuser privileges (under the root user on most systems)."
     exit 1
 fi
 
-# Create a log file
+# LOG输出
 LOGFILE="/var/log/nvidia_driver_setup.log"
 exec > >(tee -a "$LOGFILE") 2>&1
 
-# Tell the user what the script does
-echo "Installing the Nvidia driver without CUDA and cuDNN. You can manually install them later if needed."
-echo "The following steps will be executed: "
-echo "1. Completely remove all files and packages related to Nvidia driver."
-echo "2. Completely remove CUDA if installed."
-echo "3. Install the specific Nvidia driver selected by the user from a list of available options."
-echo "Caution: You are executing this script as root. Ensure that you fully understand the actions being performed."
-read -p "Do you want to continue? [Y/n] " ans
+# 阶段性输出
+echo "只装驱动、不装 CUDA 和 cuDNN.确实需要再说."
+echo "执行顺序: "
+echo "1. 移除Nvidia Driver相关的内容."
+echo "2. 移除CUDA."
+echo "3. 安装特定版本驱动."
+echo "=================安装后黑屏或者循环登录问题可以尝试卸载驱动相关=====================."
+read -p "骚年，你渴望力量吗? [Y/n] " ans
 if [[ "$ans" != "Y" && "$ans" != "y" && "$ans" != "" ]]; then
-  echo "Error: Operation canceled."
+  echo "正确的选择，安装啥破驱动，能用就行，不行试试系统自带的额外驱动安装程序."
   exit 1
 fi
 
-# Remove CUDA if installed
+# Remove CUDA 
 /usr/local/cuda/bin/cuda-uninstaller
 
-# Remove Nvidia packages
+# Remove Nvidia 
 apt-get remove --purge "*nvidia*" -y
 
-# Find and delete remaining Nvidia files
+# Find and delete
 find /usr/lib -iname "*nvidia*" -delete
 
 # Add 'nouveau' to /etc/modules
@@ -53,10 +53,10 @@ reboot() {
 }
 
 # Ask the user if they want to reinstall Nvidia drivers
-echo "The Nvidia drivers and CUDA have been completely removed from the system." 
-read -p "Do you want to continue with the installation steps? [Y/n] " ans
+echo "NVIDIA相关东西我已经删除了." 
+read -p "确定执行后边的安装程序? [Y/n] " ans
 if [[ "$ans" != "Y" && "$ans" != "y" && "$ans" != "" ]]; then
-  echo "Nvidia driver installation has been skipped. Using the Nouveau driver instead."
+  echo "不安装，使用开源Nouveau."
   echo "See the log file at $LOGFILE"
   reboot
 fi
@@ -72,7 +72,7 @@ apt-get update
 
 # Check available drivers
 echo
-echo "Fetching available options for the driver. Please wait..."
+echo "查找可以安装的选项. 等会儿..."
 echo
 driver_info=$(ubuntu-drivers devices)
 
@@ -114,7 +114,7 @@ apt-get autoclean
 
 # Finish
 echo
-echo "'$selected_driver' was installed successfully. You can manually install CUDA and cuDNN later if needed."
+echo "'$selected_driver' <--- 这个版本的驱动安装好了. 需要CUDA和cudnn自己再装吧."
 echo "See the log file at $LOGFILE"
-echo "Reboot your computer and run 'nvidia-smi' to ensure your driver is working."
+echo "现在，Now，马上！！！重启电脑，输入nvidia-smi 确认驱动安装状态."
 reboot
