@@ -1,30 +1,38 @@
 [global_config]
+  inactive_color_offset = 0.7999999999999999
   suppress_multiple_term_dialog = True
   always_split_with_profile = True
 [keybindings]
 [profiles]
   [[default]]
+    palette = "#101116:#ea3356:#64d98c:#faf968:#306fb1:#ba3ec1:#59c2c6:#c7c7c7:#686868:#ed776d:#8df77a:#fefc7f:#6a71f6:#ae40e4:#8efafd:#ffffff"
+    background_color = "#101116"
+    cursor_color = "#9bfca8"
+    foreground_color = "#d13554"
+    background_image = None
+    scrollbar_position = hidden
+    scrollback_lines = 9000
+   
+  [[niji]]
+    background_color = "#141515"
+    background_image = None
+    foreground_color = "#ffffff"
+    scrollbar_position = hidden
+    palette = "#333333:#d23e08:#54ca74:#fff700:#2ab9ff:#ff50da:#1ef9f5:#ddd0c4:#515151:#ffb7b7:#c1ffae:#fcffb8:#8efff3:#ffa2ed:#bcffc7:#ffffff"
+  [[GitHub-Light-High-Contrast]]
+    background_color = "#ffffff"
+    background_image = None
+    foreground_color = "#0e1116"
+    scrollbar_position = hidden
+    palette = "#0e1116:#a0111f:#024c1a:#3f2200:#0349b4:#622cbc:#1b7c83:#66707b:#4b535d:#86061d:#055d20:#4e2c00:#1168e3:#844ae7:#3192aa:#88929d"
+  [[Adwaita]]
     background_color = "#ffffff"
     background_image = None
     foreground_color = "#000000"
     scrollbar_position = hidden
     scrollback_lines = 9000
     palette = "#241f31:#c01c28:#2ec27e:#f5c211:#1e78e4:#9841bb:#0ab9dc:#c0bfbc:#5e5c64:#ed333b:#57e389:#f8e45c:#51a1ff:#c061cb:#4fd2fd:#f6f5f4"
-  [[niji]]
-    background_color = "#141515"
-    background_image = None
-    foreground_color = "#ffffff"
-    palette = "#333333:#d23e08:#54ca74:#fff700:#2ab9ff:#ff50da:#1ef9f5:#ddd0c4:#515151:#ffb7b7:#c1ffae:#fcffb8:#8efff3:#ffa2ed:#bcffc7:#ffffff"
-  [[GitHub-Light-High-Contrast]]
-    background_color = "#ffffff"
-    background_image = None
-    foreground_color = "#0e1116"
-    palette = "#0e1116:#a0111f:#024c1a:#3f2200:#0349b4:#622cbc:#1b7c83:#66707b:#4b535d:#86061d:#055d20:#4e2c00:#1168e3:#844ae7:#3192aa:#88929d"
-  [[Adwaita]]
-    background_color = "#ffffff"
-    background_image = None
-    foreground_color = "#000000"
-    palette = "#241f31:#c01c28:#2ec27e:#f5c211:#1e78e4:#9841bb:#0ab9dc:#c0bfbc:#5e5c64:#ed333b:#57e389:#f8e45c:#51a1ff:#c061cb:#4fd2fd:#f6f5f4"
+
 [layouts]
   [[default]]
     [[[window0]]]
