@@ -126,14 +126,23 @@ alias armcmake="cmake -DCMAKE_TOOLCHAIN_FILE=/home/hanxiao/wspace/aiforcetech_ar
 alias cp-debain="bash ~/Bash_dir/debain_cp_arm.sh"
 
 
+alias gcm="git commit -m"
+
 # hxg MATLAB
-export PATH=/home/hanxiao/Matlab/bin:$PATH
+# export PATH=/home/hanxiao/Matlab/bin:$PATH
+
+# dotnet tools 
+export PATH=/home/hanxiao/.dotnet/tools:$PATH
+
+# hxg python venv ---> HXGPython
+# active
+alias spy="source /home/hanxiao/Python/HXGPyhton/bin/activate"
+# deactive
 
 
 ulimit -c unlimited
 
-alias runmonitorwq="bash ~/Bash_dir/runmonitor.sh"
-alias runmonitor="bash ~/Bash_dir/runmonitor.sh"
+alias runmonitor="~/Bin/msg_monitor"
 
 # zsh-autosuggestions config
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=yan,bold,underline"
