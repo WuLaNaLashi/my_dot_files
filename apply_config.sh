@@ -53,7 +53,7 @@ create_symlink "$DOTFILES_REPO/git/.gitconfig" "$HOME/.gitconfig"
 # git ignore global
 echo "Applying git ignore global configuration..."
 mkdir -p $HOME/GitIgnoreGlobal
-create_symlink "$DOTFILES_REPO/git/ignore_gloabl" "$HOME/GitIgnoreGlobal/ignore_gloabl"
+create_symlink "$DOTFILES_REPO/git/ignore_global" "$HOME/GitIgnoreGlobal/ignore_global"
 # zsh
 echo "Applying zsh configuration..."
 create_symlink "$DOTFILES_REPO/zsh/.zshrc" "$HOME/.zshrc"
