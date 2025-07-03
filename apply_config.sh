@@ -1,11 +1,13 @@
 #!/bin/bash
 
+# 注意用户名： hanxiao
+
 # Git 仓库路径（可以根据自身情况修改）
-DOTFILES_REPO="$HOME/dotfiles"
+DOTFILES_REPO="$HOME/BackUp_config/some-config-backup"
 
 # 克隆 Git 仓库（如果尚未克隆）
 if [ ! -d "$DOTFILES_REPO" ]; then
-    git clone <your_dotfiles_repo_url> "$DOTFILES_REPO"  # 替换为你的仓库 URL
+    git clone https://gitee.com/hanxiao1994/some-config-backup.git "$DOTFILES_REPO"  # 替换为你的仓库 URL
 fi
 
 # 创建软链接函数
@@ -38,12 +40,28 @@ create_symlink() {
 }
 
 # 应用常用软件配置
-# 以下是一些常见软件配置的示例，你可以根据实际情况进行修改和扩展
-create_symlink "$DOTFILES_REPO/.bashrc" "$HOME/.bashrc"
-create_symlink "$DOTFILES_REPO/.vimrc" "$HOME/.vimrc"
-create_symlink "$DOTFILES_REPO/.tmux.conf" "$HOME/.tmux.conf"
-create_symlink "$DOTFILES_REPO/.gitconfig" "$HOME/.gitconfig"
-create_symlink "$DOTFILES_REPO/.config/nvim/init.vim" "$HOME/.config/nvim/init.vim"
-create_symlink "$DOTFILES_REPO/.config/alacritty/alacritty.yml" "$HOME/.config/alacritty/alacritty.yml"
+echo "Applying common software configuration..."
+# bash
+echo "Applying bash configuration..."
+create_symlink "$DOTFILES_REPO/bash/.bashrc" "$HOME/.bashrc"
+# vim
+echo "Applying vim configuration..."
+create_symlink "$DOTFILES_REPO/vim/.vimrc" "$HOME/.vimrc"
+# git
+echo "Applying git configuration..."
+create_symlink "$DOTFILES_REPO/git/.gitconfig" "$HOME/.gitconfig"
+# git ignore global
+echo "Applying git ignore global configuration..."
+mkdir -p $HOME/GitIgnoreGlobal
+create_symlink "$DOTFILES_REPO/git/ignore_gloabl" "$HOME/GitIgnoreGlobal/ignore_gloabl"
+# zsh
+echo "Applying zsh configuration..."
+create_symlink "$DOTFILES_REPO/zsh/.zshrc" "$HOME/.zshrc"
+# ssh 某些远程主机使用明文密码登陆需要 sshpass
+echo "Applying ssh configuration..."
+create_symlink "$DOTFILES_REPO/ssh/config" "$HOME/.ssh/config"
+# terminator
+echo "Applying terminator configuration..."
+create_symlink "$DOTFILES_REPO/terminator/config" "$HOME/.config/terminator/config"
 
 echo "Configuration applied successfully!"

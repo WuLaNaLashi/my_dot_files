@@ -1,0 +1,17 @@
+Host 22.3
+  HostName 192.168.22.3
+  User linaro
+  
+Host gitlab-runner
+  HostName 192.168.20.11
+  User aiforce
+
+Host remote_60001
+  HostName 123.127.16.69
+  User linaro
+  Port 60001
+
+Host remote_60004
+  HostName 123.127.16.69
+  User linaro
+  Port 60004
