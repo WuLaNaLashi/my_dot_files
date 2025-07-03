@@ -1,10 +1,13 @@
 Host 22.3
   HostName 192.168.22.3
   User linaro
+  #: Password linaro
+  IdentityFile ~/.ssh/id_ed25519
   
 Host gitlab-runner
   HostName 192.168.20.11
   User aiforce
+  IdentityFile ~/.ssh/id_ed25519
 
 Host remote_60001
   HostName 123.127.16.69
