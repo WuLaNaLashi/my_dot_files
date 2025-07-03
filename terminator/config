@@ -5,14 +5,15 @@
 [keybindings]
 [profiles]
   [[default]]
-    palette = "#101116:#ea3356:#64d98c:#faf968:#306fb1:#ba3ec1:#59c2c6:#c7c7c7:#686868:#ed776d:#8df77a:#fefc7f:#6a71f6:#ae40e4:#8efafd:#ffffff"
-    background_color = "#101116"
-    cursor_color = "#9bfca8"
-    foreground_color = "#d13554"
+    background_color = "#ffffff"
+    background_darkness = 0.92
+    background_type = image
     background_image = None
+    font = Cascadia Mono NF 12
+    foreground_color = "#000000"
     scrollbar_position = hidden
     scrollback_lines = 9000
-   
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
   [[niji]]
     background_color = "#141515"
     background_image = None
@@ -32,7 +33,6 @@
     scrollbar_position = hidden
     scrollback_lines = 9000
     palette = "#241f31:#c01c28:#2ec27e:#f5c211:#1e78e4:#9841bb:#0ab9dc:#c0bfbc:#5e5c64:#ed333b:#57e389:#f8e45c:#51a1ff:#c061cb:#4fd2fd:#f6f5f4"
-
 [layouts]
   [[default]]
     [[[window0]]]
