@@ -17,7 +17,7 @@ create_symlink() {
 
     # 检查目标文件是否已经存在
     if [ -e "$target_file" ] || [ -L "$target_file" ]; then
-        # 如果目标文件是符号链接，则先删除
+        # 如果目标文件是符号链接，则先删除 hxg 这里后续决定是否保留
         if [ -L "$target_file" ]; then
             rm "$target_file"
             echo "*** Deleted existing symlink: $target_file"
@@ -63,5 +63,8 @@ create_symlink "$DOTFILES_REPO/ssh/config" "$HOME/.ssh/config"
 # terminator
 echo ">>>>> Applying terminator configuration..."
 create_symlink "$DOTFILES_REPO/terminator/config" "$HOME/.config/terminator/config"
+#pip
+echo ">>>>> Applying pip configuration..."
+create_symlink "$DOTFILES_REPO/python/pip/pip.conf" "$HOME/.config/pip/pip.conf"
 
 echo "Configuration applied successfully!"
