@@ -20,15 +20,15 @@ create_symlink() {
         # 如果目标文件是符号链接，则先删除
         if [ -L "$target_file" ]; then
             rm "$target_file"
-            echo "Deleted existing symlink: $target_file"
+            echo "*** Deleted existing symlink: $target_file"
         # 如果目标文件是普通文件，则提示用户是否备份
         else
             read -p "$target_file already exists. Do you want to backup and replace it? (y/n) " answer
             if [ "$answer" = "y" ]; then
                 mv "$target_file" "$target_file.backup"
-                echo "Backed up $target_file to $target_file.backup"
+                echo "*** Backed up $target_file to $target_file.backup"
             else
-                echo "Skipping $source_file -> $target_file"
+                echo "*** Skipping $source_file -> $target_file"
                 return
             fi
         fi
@@ -42,26 +42,26 @@ create_symlink() {
 # 应用常用软件配置
 echo "Applying common software configuration..."
 # bash
-echo "Applying bash configuration..."
+echo ">>>>> Applying bash configuration..."
 create_symlink "$DOTFILES_REPO/bash/.bashrc" "$HOME/.bashrc"
 # vim
-echo "Applying vim configuration..."
+echo ">>>>> Applying vim configuration..."
 create_symlink "$DOTFILES_REPO/vim/.vimrc" "$HOME/.vimrc"
 # git
-echo "Applying git configuration..."
+echo ">>>>> Applying git configuration..."
 create_symlink "$DOTFILES_REPO/git/.gitconfig" "$HOME/.gitconfig"
 # git ignore global
-echo "Applying git ignore global configuration..."
+echo ">>>>> Applying git ignore global configuration..."
 mkdir -p $HOME/GitIgnoreGlobal
 create_symlink "$DOTFILES_REPO/git/ignore_global" "$HOME/GitIgnoreGlobal/ignore_global"
 # zsh
-echo "Applying zsh configuration..."
+echo ">>>>> Applying zsh configuration..."
 create_symlink "$DOTFILES_REPO/zsh/.zshrc" "$HOME/.zshrc"
 # ssh 某些远程主机使用明文密码登陆需要 sshpass
-echo "Applying ssh configuration..."
+echo ">>>>> Applying ssh configuration..."
 create_symlink "$DOTFILES_REPO/ssh/config" "$HOME/.ssh/config"
 # terminator
-echo "Applying terminator configuration..."
+echo ">>>>> Applying terminator configuration..."
 create_symlink "$DOTFILES_REPO/terminator/config" "$HOME/.config/terminator/config"
 
 echo "Configuration applied successfully!"
