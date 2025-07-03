@@ -104,6 +104,21 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
+alias gcm="git commit -m"
+
+# hxg MATLAB
+# export PATH=/home/hanxiao/Matlab/bin:$PATH
+
+# dotnet tools 
+export PATH=/home/hanxiao/.dotnet/tools:$PATH
+
+# hxg python venv ---> HXGPython
+# active
+alias spy="source /home/hanxiao/Python/HXGPyhton/bin/activate"
+# deactive
+
+
+
 # hxg build for arm
 # codesync for sync code from git source to arm_src
 # b for build only
@@ -124,20 +139,7 @@ alias groot="~/Groot2/bin/groot2"
 alias cdc="source ~/Bash_dir/change_directory.sh"
 alias armcmake="cmake -DCMAKE_TOOLCHAIN_FILE=/home/hanxiao/wspace/aiforcetech_arm_n/arm-toolchain.cmake"
 alias cp-debain="bash ~/Bash_dir/debain_cp_arm.sh"
-
-
-alias gcm="git commit -m"
-
-# hxg MATLAB
-# export PATH=/home/hanxiao/Matlab/bin:$PATH
-
-# dotnet tools 
-export PATH=/home/hanxiao/.dotnet/tools:$PATH
-
-# hxg python venv ---> HXGPython
-# active
-alias spy="source /home/hanxiao/Python/HXGPyhton/bin/activate"
-# deactive
+alias checkupdate="spy && python ~/Bash_dir/remote_file_checker.py"
 
 
 ulimit -c unlimited
