@@ -140,6 +140,7 @@ alias cdc="source ~/Bash_dir/change_directory.sh"
 alias armcmake="cmake -DCMAKE_TOOLCHAIN_FILE=/home/hanxiao/wspace/aiforcetech_arm_n/arm-toolchain.cmake"
 alias cp-debain="bash ~/Bash_dir/debain_cp_arm.sh"
 alias checkupdate="spy && python ~/Bash_dir/remote_file_checker.py"
+alias mc_logger="spy && python /home/hanxiao/Bash_dir/mc_log_analyzer.py"
 
 
 ulimit -c unlimited
