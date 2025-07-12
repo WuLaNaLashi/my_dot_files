@@ -142,6 +142,7 @@ alias cp-debain="bash ~/Bash_dir/debain_cp_arm.sh"
 alias checkupdate="spy && python ~/Bash_dir/remote_file_checker.py"
 alias mc_logger="spy && python /home/hanxiao/Bash_dir/mc_log_analyzer.py"
 alias remote_deloy="bash ~/Bash_dir/remote_sync_deploy.sh"
+alias make_config_backup="bash /home/hanxiao/Bash_dir/make_remote_config_backup.sh"
 
 
 ulimit -c unlimited

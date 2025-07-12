@@ -5,40 +5,21 @@
 [keybindings]
 [profiles]
   [[default]]
-    background_color = "#ffffff"
-    background_darkness = 0.92
-    background_type = image
-    background_image = None
+    allow_bold = False
+    background_color = "#fdf6e3"
+    background_darkness = 0.96
+    background_image = /home/hanxiao/Pictures/wallhaven-j8oqjq.png
     font = Cascadia Mono NF 12
-    foreground_color = "#000000"
+    foreground_color = "#657b83"
     scrollbar_position = hidden
     scrollback_lines = 9000
-    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
-  [[niji]]
-    background_color = "#141515"
-    background_image = None
-    foreground_color = "#ffffff"
-    scrollbar_position = hidden
-    palette = "#333333:#d23e08:#54ca74:#fff700:#2ab9ff:#ff50da:#1ef9f5:#ddd0c4:#515151:#ffb7b7:#c1ffae:#fcffb8:#8efff3:#ffa2ed:#bcffc7:#ffffff"
-  [[GitHub-Light-High-Contrast]]
-    background_color = "#ffffff"
-    background_image = None
-    foreground_color = "#0e1116"
-    scrollbar_position = hidden
-    palette = "#0e1116:#a0111f:#024c1a:#3f2200:#0349b4:#622cbc:#1b7c83:#66707b:#4b535d:#86061d:#055d20:#4e2c00:#1168e3:#844ae7:#3192aa:#88929d"
-  [[Adwaita]]
-    background_color = "#ffffff"
-    background_image = None
-    foreground_color = "#000000"
-    scrollbar_position = hidden
-    scrollback_lines = 9000
-    palette = "#241f31:#c01c28:#2ec27e:#f5c211:#1e78e4:#9841bb:#0ab9dc:#c0bfbc:#5e5c64:#ed333b:#57e389:#f8e45c:#51a1ff:#c061cb:#4fd2fd:#f6f5f4"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
 [layouts]
   [[default]]
     [[[window0]]]
       type = Window
       parent = ""
-      size = 1200, 600
+      size = 1450, 600
     [[[child1]]]
       type = Terminal
       parent = window0
