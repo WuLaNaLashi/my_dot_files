@@ -66,5 +66,8 @@ create_symlink "$DOTFILES_REPO/terminator/config" "$HOME/.config/terminator/conf
 #pip
 echo ">>>>> Applying pip configuration..."
 create_symlink "$DOTFILES_REPO/python/pip/pip.conf" "$HOME/.config/pip/pip.conf"
+# vscode 
+echo ">>>>> Applying vscode configuration..."
+create_symlink "$DOTFILES_REPO/vscode/settings.json" "$HOME/.config/Code/User/settings.json"
 
 echo "Configuration applied successfully!"
