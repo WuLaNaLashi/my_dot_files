@@ -1,3 +1,8 @@
+#: for github.com if not useful plz check ip adress
+Host github.com
+  HostName 140.82.112.4
+  User git
+  
 Host 22.3
   HostName 192.168.22.3
   User linaro
@@ -26,3 +31,8 @@ Host remote_60004
 Host sixin_111
   HostName 192.168.1.111
   User linaro
+  
+Host sixin_127
+  HostName 192.168.1.127
+  User linaro
+
