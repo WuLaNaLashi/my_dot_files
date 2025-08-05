@@ -1,4 +1,5 @@
 #: for github.com if not useful plz check ip adress
+#: https://www.ipaddress.com/website/github.com/
 Host github.com
   HostName 140.82.112.4
   User git
@@ -17,6 +18,7 @@ Host gitlab-runner
 Host rk3576_test
   HostName 192.168.20.27
   User aiforce
+  #: password " "
 
 Host remote_60001
   HostName 123.127.16.69
