@@ -152,3 +152,6 @@ alias runmonitor="~/Bin/msg_monitor"
 # zsh-autosuggestions config
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=yan,bold,underline"
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export FZF_COMPLETION_TRIGGER='`'

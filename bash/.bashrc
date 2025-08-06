@@ -188,3 +188,5 @@ export PATH=/home/hanxiao/wspace/valgrind/bin:$PATH
 
 alias runmonitorwq="bash ~/Bash_dir/runmonitor.sh"
 alias runmonitor="bash ~/Bash_dir/runmonitor.sh"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
