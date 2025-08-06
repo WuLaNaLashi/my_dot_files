@@ -7,13 +7,15 @@
   [[default]]
     allow_bold = False
     background_color = "#efebd4"
-    background_darkness = 0.94
+    background_darkness = 0.96
     background_type = transparent
     background_image = None
     foreground_color = "#5c6a72"
     scrollbar_position = hidden
     scrollback_lines = 9000
     palette = "#7a8478:#e67e80:#a7c080:#dbbc7f:#7fbbb3:#d699b6:#83c092:#f2efdf:#a6b0a0:#f85552:#8da101:#dfa000:#3a94c5:#df69ba:#35a77c:#fffbef"
+    title_transmit_fg_color = "#293136"
+    title_transmit_bg_color = "#f25351"
   [[Everforest Dark - Hard]]
     allow_bold = False
     background_color = "#1e2326"
@@ -23,6 +25,8 @@
     foreground_color = "#d3c6aa"
     scrollback_lines = 50000
     palette = "#7a8478:#e67e80:#a7c080:#dbbc7f:#7fbbb3:#d699b6:#83c092:#f2efdf:#a6b0a0:#f85552:#8da101:#dfa000:#3a94c5:#df69ba:#35a77c:#fffbef"
+    title_transmit_fg_color = "#293136"
+    title_transmit_bg_color = "#f25351"
 [layouts]
   [[default]]
     [[[window0]]]
