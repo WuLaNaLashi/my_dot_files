@@ -143,7 +143,7 @@ alias checkupdate="spy && python ~/Bash_dir/remote_file_checker.py"
 alias mc_logger="spy && python /home/hanxiao/Bash_dir/mc_log_analyzer.py"
 alias remote_deloy="bash ~/Bash_dir/remote_sync_deploy.sh"
 alias make_config_backup="bash /home/hanxiao/Bash_dir/make_remote_config_backup.sh"
-
+alias c="clear"
 
 ulimit -c unlimited
 
@@ -155,3 +155,7 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_COMPLETION_TRIGGER='`'
+
+# https://github.com/Waylon-cn/docker_images_sync
+# docker images sync by aliyun & github actions 
+export PATH=$PATH:/home/hanxiao/Bin/docker_images_sync/cmd
