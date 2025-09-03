@@ -1,33 +1,27 @@
 [global_config]
   inactive_color_offset = 0.7999999999999999
-  suppress_multiple_term_dialog = True
   always_split_with_profile = True
 [keybindings]
 [profiles]
   [[default]]
     allow_bold = False
-    background_color = "#efebd4"
-    background_darkness = 0.96
-    background_type = transparent
-    background_image = None
-    foreground_color = "#5c6a72"
-    scrollbar_position = hidden
-    scrollback_lines = 9000
-    palette = "#7a8478:#e67e80:#a7c080:#dbbc7f:#7fbbb3:#d699b6:#83c092:#f2efdf:#a6b0a0:#f85552:#8da101:#dfa000:#3a94c5:#df69ba:#35a77c:#fffbef"
-    bold_is_bright = True
-    title_transmit_fg_color = "#293136"
-    title_transmit_bg_color = "#e01b24"
-  [[Everforest Dark - Hard]]
-    allow_bold = False
     background_color = "#1e2326"
-    background_darkness = 0.93
+    background_darkness = 0.97
     background_type = transparent
-    background_image = None
+    background_image = /home/hanxiao/Pictures/5.png
+    background_image_mode = scale_and_crop
+    font = MiWithJBMono 14
     foreground_color = "#d3c6aa"
     scrollback_lines = 50000
     palette = "#7a8478:#e67e80:#a7c080:#dbbc7f:#7fbbb3:#d699b6:#83c092:#f2efdf:#a6b0a0:#f85552:#8da101:#dfa000:#3a94c5:#df69ba:#35a77c:#fffbef"
     title_transmit_fg_color = "#293136"
     title_transmit_bg_color = "#f25351"
+  [[Light]]
+    allow_bold = False
+    background_color = "#ffffff"
+    foreground_color = "#000000"
+    scrollback_lines = 9999
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
 [layouts]
   [[default]]
     [[[window0]]]

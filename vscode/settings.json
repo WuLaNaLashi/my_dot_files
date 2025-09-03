@@ -8,9 +8,6 @@
     "editor.lineHeight": 1.5,
     "terminal.integrated.fontSize": 18,
     "terminal.integrated.fontWeightBold": "normal",
-
-    // themes
-    "workbench.colorTheme": "Zenrized Osaka",
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.color": "#ff7043",
     "material-icon-theme.files.color": "#ff7043",
@@ -35,5 +32,8 @@
         "HXG"
     ],
     "fittencode.languagePreference.displayPreference": "zh-cn",
-    "fittencode.languagePreference.commentPreference": "zh-cn"
+    "fittencode.languagePreference.commentPreference": "zh-cn",
+    "chat.commandCenter.enabled": false,
+    "workbench.colorTheme": "Zenrized Osaka",
+    "markdown-preview-enhanced.configPath": "/home/hanxiao/BackUp_config/some-config-backup/vscode"
 }
