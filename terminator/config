@@ -5,6 +5,12 @@
 [profiles]
   [[default]]
     allow_bold = False
+    background_color = "#ffffff"
+    foreground_color = "#000000"
+    scrollback_lines = 9999
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+  [[everforest-dark]]
+    allow_bold = False
     background_color = "#1e2326"
     background_darkness = 0.97
     background_type = transparent
@@ -16,12 +22,6 @@
     palette = "#7a8478:#e67e80:#a7c080:#dbbc7f:#7fbbb3:#d699b6:#83c092:#f2efdf:#a6b0a0:#f85552:#8da101:#dfa000:#3a94c5:#df69ba:#35a77c:#fffbef"
     title_transmit_fg_color = "#293136"
     title_transmit_bg_color = "#f25351"
-  [[Light]]
-    allow_bold = False
-    background_color = "#ffffff"
-    foreground_color = "#000000"
-    scrollback_lines = 9999
-    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
 [layouts]
   [[default]]
     [[[window0]]]

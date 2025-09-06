@@ -159,3 +159,15 @@ export FZF_COMPLETION_TRIGGER='`'
 # https://github.com/Waylon-cn/docker_images_sync
 # docker images sync by aliyun & github actions 
 export PATH=$PATH:/home/hanxiao/Bin/docker_images_sync/cmd
+
+# nodejs
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# claude code env
+export ANTHROPIC_AUTH_TOKEN=sk-a71512ef7df84ba69bfbbd484005083f
+export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+export API_TIMEOUT_MS=600000
+export ANTHROPIC_MODEL=deepseek-chat
+export ANTHROPIC_SMALL_FAST_MODEL=deepseek-chat

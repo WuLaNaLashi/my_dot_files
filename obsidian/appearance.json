@@ -1,0 +1,12 @@
+{
+  "theme": "moonstone",
+  "accentColor": "",
+  "interfaceFontFamily": "MiWithJBMono_NL_NF",
+  "textFontFamily": "MiWithJBMono_NL_NF",
+  "monospaceFontFamily": "JetBrains Mono",
+  "baseFontSize": 18,
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "showRibbon": true,
+  "cssTheme": ""
+}

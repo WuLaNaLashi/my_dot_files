@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "01954b2296d8a4af",
+    "type": "split",
+    "children": [
+      {
+        "id": "69b77b4fee0a7f00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec0b5fbfdf21ef7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "日常记录/错误码.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "错误码"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8092a6516ca45e30",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee5d6f1872890df5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5623c21b5d69e95c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "47ff45d80d2232ea",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 221.5
+  },
+  "right": {
+    "id": "e0c6318278b9f389",
+    "type": "split",
+    "children": [
+      {
+        "id": "3d5d55028212cd6e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30d67bacfc0c55b1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "日常记录/L2决策重构.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "L2决策重构 的出链列表"
+            }
+          },
+          {
+            "id": "42dbee1e0c07f27f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "L4 作业参数分类&处理.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "L4 作业参数分类&处理 的大纲"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 878.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:创建新数据库": false,
+      "command-palette:打开命令面板": false,
+      "daily-notes:打开/创建今天的日记": false
+    }
+  },
+  "active": "ec0b5fbfdf21ef7f",
+  "lastOpenFiles": [
+    "日常记录/操作序列简要说明.md",
+    "日常记录/发动机→油门校准.md",
+    "日常记录/决策控制使用异常码整理.md",
+    "日常记录/错误码.md",
+    "邻垄耙地.md",
+    "未命名 1.md",
+    "未命名.md",
+    "L4 决策处理.md",
+    "日常记录/L4 作业参数分类&处理.md",
+    "日常记录/日记-2025-0305.md",
+    "日常记录/日记-2025-0426.md",
+    "纵向控制需求2.0.md",
+    "日常记录/日记-2025-0313.md",
+    "PTO跟随悬挂位置.md",
+    "日常记录/日记-2025-0307.md",
+    "attachments/Pasted image 20250307173352.png",
+    "日常记录/L2决策重构.md",
+    "日常记录/日记-2025-0306.md",
+    "日常记录/2025-02-17.md",
+    "日常记录/2025-02-07.md",
+    "日常记录/2025-02-06.md",
+    "日常记录/2025-01-20.md",
+    "日常记录/2025-01-17.md",
+    "attachments/实际档位不变.png",
+    "车速控制 bug.md",
+    "NODE NAME - FOR BUILD TAEGET.md",
+    "日常记录/速度控制实现.md",
+    "日常记录/记录时间20250305-2003.md",
+    "attachments/Pasted image 20250225194638.png",
+    "attachments/微信图片_2025-02-26_202007_593.png",
+    "attachments/2025-03-03-15-09-36.png",
+    "attachments/2025-03-04-16-50-32.png",
+    "attachments",
+    "日常记录"
+  ]
+}
