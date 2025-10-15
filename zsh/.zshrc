@@ -135,7 +135,7 @@ alias routegif='python3 ~/Bash_dir/route_gif.py'
 alias routesplit='python3 ~/Bash_dir/route_split.py'
 alias zo="~/Zotero_linux-x86_64/zotero"
 alias armb="bash ~/Bash_dir/build_for_arm.sh" 
-alias groot="~/Groot2/bin/groot2"
+alias groot="~/Bin/Groot2/bin/groot2"
 alias cdc="source ~/Bash_dir/change_directory.sh"
 alias armcmake="cmake -DCMAKE_TOOLCHAIN_FILE=/home/hanxiao/wspace/aiforcetech_arm_n/arm-toolchain.cmake"
 alias cp-debain="bash ~/Bash_dir/debain_cp_arm.sh"
@@ -166,8 +166,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # claude code env
-export ANTHROPIC_AUTH_TOKEN=sk-a71512ef7df84ba69bfbbd484005083f
-export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+# export ANTHROPIC_AUTH_TOKEN=sk-a71512ef7df84ba69bfbbd484005083f
+# export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+# export ANTHROPIC_SMALL_FAST_MODEL=deepseek-chat
+# export ANTHROPIC_MODEL=deepseek-chat
 export API_TIMEOUT_MS=600000
-export ANTHROPIC_MODEL=deepseek-chat
-export ANTHROPIC_SMALL_FAST_MODEL=deepseek-chat
+export ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic
+export ANTHROPIC_AUTH_TOKEN=4afd2855388e45a5aad6dccf378d48d2.VR3Xl0npeRXx9sKo
+export ANTHROPIC_MODEL=glm-4.5v

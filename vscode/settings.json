@@ -4,7 +4,7 @@
     
     // font settings
     "editor.fontSize": 18,
-    "editor.fontFamily": "'BlexMono Nerd Font Mono', 'IBM Plex Sans SC Text', monospace",
+    "editor.fontFamily": "'BlexMono Nerd Font Mono','MiSans', monospace",
     "editor.lineHeight": 1.5,
     "terminal.integrated.fontSize": 18,
     "terminal.integrated.fontWeightBold": "normal",
@@ -34,6 +34,19 @@
     "fittencode.languagePreference.displayPreference": "zh-cn",
     "fittencode.languagePreference.commentPreference": "zh-cn",
     "chat.commandCenter.enabled": false,
-    "workbench.colorTheme": "Zenrized Osaka",
-    "markdown-preview-enhanced.configPath": "/home/hanxiao/BackUp_config/some-config-backup/vscode"
+    "workbench.colorTheme": "Default Light Modern",
+    "markdown-preview-enhanced.configPath": "/home/hanxiao/BackUp_config/some-config-backup/vscode",
+    "[cpp]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "editor.suggest.insertMode": "replace"
+    },
+    "clangd.arguments": [
+        "--background-index",
+        "--compile-commands-dir=build",
+        "--clang-tidy"
+    ],
+    "clangd.path": "/usr/bin/clangd-20",
+    "C_Cpp.intelliSenseEngine": "disabled"
 }

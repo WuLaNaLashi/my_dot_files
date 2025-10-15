@@ -9,6 +9,9 @@ Host 22.3
   User linaro
   #: Password linaro
   IdentityFile ~/.ssh/id_ed25519
+Host 88.142
+  HostName 192.168.88.142
+  User linaro
   
 Host gitlab-runner
   HostName 192.168.20.11
@@ -25,10 +28,19 @@ Host rk3576_test2
   User aiforce
   #: password " "
 
+Host rk3576_wired
+  HostName 192.168.20.79
+  User aiforce
+
 Host remote_60001
   HostName 123.127.16.69
   User linaro
   Port 60001
+
+Host remote_60002
+  HostName 123.127.16.69
+  User linaro
+  Port 60002
 
 Host remote_60004
   HostName 123.127.16.69
@@ -51,3 +63,7 @@ Host sixin_127
 Host TestBech
   HostName 192.168.88.231
   User linaro
+
+Host 168-0-1
+  HostName 192.168.0.1
+  User aiforce

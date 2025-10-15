@@ -12,6 +12,8 @@ arm64_build/
 vscode-build/
 clion_build
 vscode_cmake_build/
+.cache
+**/.cache
 
 # ===================== VSC ==========================
 # ===================== VSC ==========================
