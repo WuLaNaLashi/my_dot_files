@@ -67,3 +67,7 @@ Host TestBech
 Host 168-0-1
   HostName 192.168.0.1
   User aiforce
+
+Host orangepi
+  HostName 192.168.0.134
+  User orangepi
