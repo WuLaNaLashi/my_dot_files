@@ -158,22 +158,29 @@ alias gcm='git commit -m'
 # codesync for sync code from git source to arm_src
 # b for build only
 # bc for synccode & build
-alias codesync='bash ~/Bash_dir/sync_code.sh'
-alias b='cd ~/wspace/aiforcetech_arm_n/src/Decision/decision_controller && bash ~/Bash_dir/build_for_arm.sh'
-alias cb='codesync && b'
-alias p='source ~/Bash_dir/move_exe.sh'
+# alias codesync='bash ~/Bash_dir/sync_code.sh'
+# alias b='cd ~/wspace/aiforcetech_arm_n/src/Decision/decision_controller && bash ~/Bash_dir/build_for_arm.sh'
+# alias cb='codesync && b'
+# alias p='source ~/Bash_dir/move_exe.sh'
+# alias cdc="source ~/Bash_dir/change_directory.sh"
+# alias armcmake="cmake -DCMAKE_TOOLCHAIN_FILE=/home/hanxiao/wspace/aiforcetech_arm_n/arm-toolchain.cmake"
+# alias logcalc='python3 ~/Bash_dir/log_calc.py'
+# alias routeplot='python3 ~/Bash_dir/route_plot.py'
+# alias routegif='python3 ~/Bash_dir/route_gif.py'
+# alias routesplit='python3 ~/Bash_dir/route_split.py'
+# alias armb="bash ~/Bash_dir/build_for_arm.sh" 
+# alias runmonitor="~/Bin/msg_monitor"
+
 alias logplot='python3 ~/Bash_dir/log_plot.py'
 alias logsplit='python3 ~/Bash_dir/log_split.py'
-alias logcalc='python3 ~/Bash_dir/log_calc.py'
-alias routeplot='python3 ~/Bash_dir/route_plot.py'
-alias routegif='python3 ~/Bash_dir/route_gif.py'
-alias routesplit='python3 ~/Bash_dir/route_split.py'
 alias zo="~/Zotero_linux-x86_64/zotero"
-alias armb="bash ~/Bash_dir/build_for_arm.sh" 
-alias groot="~/Groot2/bin/groot2"
-alias cdc="source ~/Bash_dir/change_directory.sh"
-alias armcmake="cmake -DCMAKE_TOOLCHAIN_FILE=/home/hanxiao/wspace/aiforcetech_arm_n/arm-toolchain.cmake"
+alias groot="~/Bin/Groot2/bin/groot2"
 alias cp-debain="bash ~/Bash_dir/debain_cp_arm.sh"
+alias checkupdate="spy && python ~/Bash_dir/remote_file_checker.py"
+alias mc_logger="spy && python /home/hanxiao/Bash_dir/mc_log_analyzer.py"
+alias remote_deloy="bash ~/Bash_dir/remote_sync_deploy.sh"
+alias make_config_backup="bash /home/hanxiao/Bash_dir/make_remote_config_backup.sh"
+alias c="clear"
 
 
 # hxg MATLAB

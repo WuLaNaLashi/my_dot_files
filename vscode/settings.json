@@ -34,7 +34,7 @@
     "fittencode.languagePreference.displayPreference": "zh-cn",
     "fittencode.languagePreference.commentPreference": "zh-cn",
     "chat.commandCenter.enabled": false,
-    "workbench.colorTheme": "Default Light Modern",
+    "workbench.colorTheme": "Zenrized Osaka",
     "markdown-preview-enhanced.configPath": "/home/hanxiao/BackUp_config/some-config-backup/vscode",
     "[cpp]": {
         "editor.wordBasedSuggestions": "off",
