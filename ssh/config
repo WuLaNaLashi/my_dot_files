@@ -14,13 +14,14 @@ Host 88.142
   User linaro
   
 Host gitlab-runner
-  HostName 192.168.20.11
+  HostName 192.168.22.160
+  #: ols is 20.11
   User aiforce
   IdentityFile ~/.ssh/id_ed25519
 
-Host rk3576_test
-  HostName 192.168.20.27
-  User aiforce
+#: Host rk3576_test
+  #: HostName 192.168.20.27
+  #: User aiforce
   #: password " "
 
 Host rk3576_test2
@@ -29,7 +30,7 @@ Host rk3576_test2
   #: password " "
 
 Host rk3576_wired
-  HostName 192.168.20.79
+  HostName 192.168.20.161
   User aiforce
 
 Host remote_60001
@@ -71,3 +72,16 @@ Host 168-0-1
 Host orangepi
   HostName 192.168.0.134
   User orangepi
+
+Host orangepi_124
+  HostName 192.168.0.128
+  User orangepi
+  
+Host tx2_test
+  HostName 192.168.20.27
+  User aiforce
+  
+## passwd YDL20230218
+Host planning_server
+  HostName 192.168.60.166
+  User ubuntu
