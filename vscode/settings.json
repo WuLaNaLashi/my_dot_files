@@ -1,11 +1,17 @@
 {
     // disable auto update
     "update.mode": "none",
-    
+
+    //////////// make code beautiful  =============>>>>>>
     // font settings
     "editor.fontSize": 18,
-    "editor.fontFamily": "'BlexMono Nerd Font Mono','MiSans', monospace",
-    "editor.lineHeight": 1.5,
+    // "editor.fontFamily": "'TX-02','MiSans', monospace",
+    "editor.fontFamily": "'IBM Plex Mono','MiSans', monospace",
+    // "editor.fontFamily": "'MesloLGLDZ Nerd Font','MiSans', monospace",
+    // "editor.fontFamily": "'IBM Plex Mono','MiSans', monospace",
+    // "editor.fontFamily": "'MiWithJBMonoHalfNL','MiSans', monospace",
+    // "editor.fontFamily": "'Google Sans Code','MiSans', monospace",
+    "editor.lineHeight": 1.6,
     "terminal.integrated.fontSize": 18,
     "terminal.integrated.fontWeightBold": "normal",
     "workbench.iconTheme": "material-icon-theme",
@@ -15,11 +21,11 @@
 
     "editor.stickyScroll.enabled": false,
 
-    "cmake.buildDirectory": "${workspaceFolder}/vscode_cmake_build",
+    //////////// Python settings  =============>>>>>>
     "python.createEnvironment.trigger": "off",
     "python.defaultInterpreterPath": "/home/hanxiao/Python/HXGPyhton/bin/python",
     
-    // todo tree 
+    //////////// todo tree  =============>>>>>>
     "todo-tree.general.tags": [
         "BUG",
         "HACK",
@@ -31,22 +37,34 @@
         "hxg",
         "HXG"
     ],
-    "fittencode.languagePreference.displayPreference": "zh-cn",
-    "fittencode.languagePreference.commentPreference": "zh-cn",
-    "chat.commandCenter.enabled": false,
-    "workbench.colorTheme": "Zenrized Osaka",
+
+
+    //////////// markdown preview enhanced config path =============>>>>>>
     "markdown-preview-enhanced.configPath": "/home/hanxiao/BackUp_config/some-config-backup/vscode",
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+
+    //////////// C++ settings  =============>>>>>>
+    // CMake build directory
+    // hxg 这里修改同步修改clangd的--compile-commands-dir参数
+    "cmake.buildDirectory": "${workspaceFolder}/vscode_cmake_build",
     "[cpp]": {
         "editor.wordBasedSuggestions": "off",
-        "editor.semanticHighlighting.enabled": true,
+        "editor.semanticHighlighting.enabled": "configuredByTheme",
         "editor.stickyScroll.defaultModel": "foldingProviderModel",
         "editor.suggest.insertMode": "replace"
     },
     "clangd.arguments": [
         "--background-index",
-        "--compile-commands-dir=build",
+        "--compile-commands-dir=vscode_cmake_build",
         "--clang-tidy"
     ],
     "clangd.path": "/usr/bin/clangd-20",
-    "C_Cpp.intelliSenseEngine": "disabled"
+    "C_Cpp.intelliSenseEngine": "disabled",
+
+    //////////// other settings =============>>>>>>
+    "files.autoSave": "afterDelay",
+    "chat.commandCenter.enabled": true,
+    "editor.hover.sticky": false,
+    "fittencode.languagePreference.displayPreference": "zh-cn",
+    "fittencode.languagePreference.commentPreference": "zh-cn",
 }
