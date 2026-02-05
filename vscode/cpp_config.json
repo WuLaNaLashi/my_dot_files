@@ -1,12 +1,13 @@
 {
     // disable auto update
     "update.mode": "none",
-
-    //////////// make code beautiful  =============>>>>>>
-    // font settings
-    "editor.fontSize": 18,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "off",
+    // "editor.fontFamily": "'IosevkaTerm Nerd Font','MiSans', monospace",
     // "editor.fontFamily": "'TX-02','MiSans', monospace",
+    // "editor.fontFamily": "'Berkeley Mono','MiSans', monospace",
     "editor.fontFamily": "'Berkeley Mono SemiCondensed','MiSans', monospace",
+    // "editor.fontFamily": "'IBM Plex Mono','MiSans', monospace",
     // "editor.fontFamily": "'MesloLGLDZ Nerd Font','MiSans', monospace",
     // "editor.fontFamily": "'IBM Plex Mono','MiSans', monospace",
     // "editor.fontFamily": "'MiWithJBMonoHalfNL','MiSans', monospace",
@@ -15,15 +16,20 @@
     "terminal.integrated.fontSize": 18,
     "terminal.integrated.fontWeightBold": "normal",
     "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.folders.color": "#ff7043",
-    "material-icon-theme.files.color": "#ff7043",
+    "material-icon-theme.folders.color": "#26a69a",
+    "material-icon-theme.files.color": "#26a69a",
     "material-icon-theme.folders.theme": "specific",
-
     "editor.stickyScroll.enabled": false,
-    
+    "files.autoSave": "afterDelay",
+    "chat.commandCenter.enabled": true,
+    "editor.hover.sticky": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    //////////// markdown preview enhanced config path =============>>>>>>
+    "markdown-preview-enhanced.configPath": "/home/hanxiao/BackUp_config/some-config-backup/vscode",
+    "markdown-preview-enhanced.previewTheme": "github-light.css",
     //////////// todo tree  =============>>>>>>
-    "python.createEnvironment.trigger": "off",
-    "python.defaultInterpreterPath": "/home/hanxiao/Python/HXGPyhton/bin/python",
     "todo-tree.general.tags": [
         "BUG",
         "HACK",
@@ -35,23 +41,20 @@
         "hxg",
         "HXG"
     ],
-
-
-    //////////// markdown preview enhanced config path =============>>>>>>
-    "markdown-preview-enhanced.configPath": "/home/hanxiao/BackUp_config/some-config-backup/vscode",
-    "markdown-preview-enhanced.previewTheme": "github-dark.css",
-
+    //**********************************************************
     //////////// C++ settings  =============>>>>>>
     // CMake build directory
     // hxg 这里修改同步修改clangd的--compile-commands-dir参数
+    "C_Cpp.intelliSenseEngine": "disabled",
     "cmake.buildDirectory": "${workspaceFolder}/vscode_cmake_build",
     "[cpp]": {
         "editor.wordBasedSuggestions": "off",
         "editor.semanticHighlighting.enabled": "configuredByTheme",
-        "editor.stickyScroll.defaultModel": "foldingProviderModel",
         "editor.suggest.insertMode": "replace",
         "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
     },
+    "clangd.path": "/usr/bin/clangd-21",
+    "C_Cpp.clang_format_style": "file:${workspaceFolder}/.clang-format",
     "clangd.arguments": [
         "--background-index",
         "--compile-commands-dir=vscode_cmake_build",
@@ -59,16 +62,17 @@
         "--completion-style=detailed",
         "--header-insertion=never",
         "--all-scopes-completion"
+        // "--limit-results=15"
     ],
-    "clangd.path": "/usr/bin/clangd-21",
-    "C_Cpp.clang_format_path": "/usr/bin/clang-format-21",
-    "C_Cpp.intelliSenseEngine": "disabled",
-
     //////////// other settings =============>>>>>>
-    "files.autoSave": "afterDelay",
-    "chat.commandCenter.enabled": true,
-    "editor.hover.sticky": false,
+    ////////////
     "fittencode.languagePreference.displayPreference": "zh-cn",
     "fittencode.languagePreference.commentPreference": "zh-cn",
-    "workbench.colorTheme": "Default Light Modern"
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format-21",
+    "markdown-preview-enhanced.codeBlockTheme": "default.css",
+    "editor.fontSize": 19,
+    "Lingma.methodQuickOperation": false,
+    "files.insertFinalNewline": true,
+    "chat.viewSessions.orientation": "stacked",
+    "workbench.colorTheme": "Default Light Modern",
 }

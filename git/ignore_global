@@ -14,6 +14,11 @@ clion_build
 vscode_cmake_build/
 .cache
 **/.cache
+tx2_build/
+tx3_build/
+build_per
+.zed/
+.zed
 
 # ===================== VSC ==========================
 # ===================== VSC ==========================

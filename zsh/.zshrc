@@ -29,7 +29,7 @@ ZSH_THEME="random"
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
-zstyle ':omz:update' frequency 13
+zstyle ':omz:update' frequency 5
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -162,6 +162,11 @@ export FZF_DEFAULT_COMMAND='fdfind --type f --follow --strip-cwd-prefix --color=
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_DEFAULT_OPTS="--ansi"
 
+
+# export BAT_THEME="TwoDark"
+export BAT_THEME="ansi"
+
+
 # https://github.com/Waylon-cn/docker_images_sync
 # docker images sync by aliyun & github actions 
 export PATH=$PATH:/home/hanxiao/Bin/docker_images_sync/cmd
@@ -179,4 +184,4 @@ export NVM_DIR="$HOME/.nvm"
 export API_TIMEOUT_MS=600000
 export ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic
 export ANTHROPIC_AUTH_TOKEN=4afd2855388e45a5aad6dccf378d48d2.VR3Xl0npeRXx9sKo
-export ANTHROPIC_MODEL=glm-4.5v
+export ANTHROPIC_MODEL=glm-4.5

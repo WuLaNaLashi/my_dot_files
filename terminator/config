@@ -6,7 +6,7 @@
   [[default]]
     allow_bold = False
     background_color = "#ffffff"
-    font = plex-sc-nf-code weight=450 13
+    font = Berkeley Mono weight=375 Condensed 15
     foreground_color = "#000000"
     scrollback_lines = 9999
     palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
@@ -25,6 +25,31 @@
     palette = "#7a8478:#e67e80:#a7c080:#dbbc7f:#7fbbb3:#d699b6:#83c092:#f2efdf:#a6b0a0:#f85552:#8da101:#dfa000:#3a94c5:#df69ba:#35a77c:#fffbef"
     title_transmit_fg_color = "#293136"
     title_transmit_bg_color = "#f25351"
+  [[Catppuccin_Latte]]
+    background_color = "#eff1f5"
+    background_image = None
+    foreground_color = "#4c4f69"
+    palette = "#5c5f77:#d20f39:#40a02b:#df8e1d:#1e66f5:#ea76cb:#179299:#acb0be:#6c6f85:#d20f39:#40a02b:#df8e1d:#1e66f5:#ea76cb:#179299:#bcc0cc"
+  [[Catppuccin_Frappe]]
+    background_color = "#303446"
+    background_image = None
+    foreground_color = "#c6d0f5"
+    palette = "#51576d:#e78284:#a6d189:#e5c890:#8caaee:#f4b8e4:#81c8be:#b5bfe2:#626880:#e78284:#a6d189:#e5c890:#8caaee:#f4b8e4:#81c8be:#a5adce"
+  [[Catppuccin_Macchiato]]
+    background_color = "#24273a"
+    background_image = None
+    foreground_color = "#cad3f5"
+    palette = "#494d64:#ed8796:#a6da95:#eed49f:#8aadf4:#f5bde6:#8bd5ca:#b8c0e0:#5b6078:#ed8796:#a6da95:#eed49f:#8aadf4:#f5bde6:#8bd5ca:#a5adcb"
+  [[Catppuccin_Mocha]]
+    background_color = "#1e1e2e"
+    background_image = None
+    foreground_color = "#cdd6f4"
+    palette = "#45475a:#f38ba8:#a6e3a1:#f9e2af:#89b4fa:#f5c2e7:#94e2d5:#bac2de:#585b70:#f38ba8:#a6e3a1:#f9e2af:#89b4fa:#f5c2e7:#94e2d5:#a6adc8"
+  [[12-bit Rainbow]]
+    background_color = "#040404"
+    background_image = None
+    foreground_color = "#feffff"
+    palette = "#000000:#a03050:#40d080:#e09040:#3060b0:#603090:#0090c0:#dbded8:#685656:#c06060:#90d050:#e0d000:#00b0c0:#801070:#20b0c0:#ffffff"
 [layouts]
   [[default]]
     [[[window0]]]
