@@ -89,3 +89,16 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+#############MacOS Files###############
+
+# macOS 系统文件
+.DS_Store
+.DS_Store?
+._.DS_Store
+**/.DS_Store
+
+# macOS 其他常见文件
+.AppleDouble
+.LSOverride
+Icon?
