@@ -29,7 +29,7 @@ ZSH_THEME="random"
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
-zstyle ':omz:update' frequency 5
+zstyle ':omz:update' frequency 25
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -136,8 +136,8 @@ alias spy="source /home/hanxiao/Python/HXGPyhton/bin/activate"
 # alias armb="bash ~/Bash_dir/build_for_arm.sh" 
 # alias runmonitor="~/Bin/msg_monitor"
 
-alias logplot='python3 ~/Bash_dir/log_plot.py'
-alias logsplit='python3 ~/Bash_dir/log_split.py'
+alias logplot='spy && python3 ~/Bash_dir/log_plot.py'
+alias logsplit='spy && python3 ~/Bash_dir/log_split.py'
 alias zo="~/Zotero_linux-x86_64/zotero"
 alias groot="~/Bin/Groot2/bin/groot2"
 alias cp-debain="bash ~/Bash_dir/debain_cp_arm.sh"
@@ -149,6 +149,9 @@ alias c="clear"
 
 ulimit -c unlimited
 
+alias tree='lstr --size --icons --color always'
+
+alias sshr='bash ~/Bash_dir/ssh_remote.sh'
 
 # zsh-autosuggestions config
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=yan,bold,underline"
@@ -181,7 +184,15 @@ export NVM_DIR="$HOME/.nvm"
 # export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
 # export ANTHROPIC_SMALL_FAST_MODEL=deepseek-chat
 # export ANTHROPIC_MODEL=deepseek-chat
-export API_TIMEOUT_MS=600000
-export ANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic
-export ANTHROPIC_AUTH_TOKEN=4afd2855388e45a5aad6dccf378d48d2.VR3Xl0npeRXx9sKo
-export ANTHROPIC_MODEL=glm-4.5
+# export API_TIMEOUT_MS=600000
+# export ANTHROPIC_BASE_URL=https://coding.dashscope.aliyuncs.com/apps/anthropic
+# export ANTHROPIC_AUTH_TOKEN=sk-13b2c9f41bdd4bd389caeae046d62dd2
+# export ANTHROPIC_MODEL=glm-5.1
+
+alias ccc='claude'
+
+
+# for hxg wechat 
+alias hwc='nohup wechat > /dev/null 2>&1 &'
+
+alias n='nautilus .'

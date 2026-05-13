@@ -1,26 +1,23 @@
 {
     // disable auto update
     "update.mode": "none",
-
     //////////// make code beautiful  =============>>>>>>
     // font settings
-    "editor.fontSize": 18,
-    // "editor.fontFamily": "'TX-02','MiSans', monospace",
-    "editor.fontFamily": "'Berkeley Mono SemiCondensed','MiSans', monospace",
+    "editor.fontSize": 19,
+    "editor.fontFamily": "'BlexMono Nerd Font Text','MiSans', monospace",
+    // "editor.fontFamily": "'Berkeley Mono SemiCondensed','MiSans', monospace",
     // "editor.fontFamily": "'MesloLGLDZ Nerd Font','MiSans', monospace",
-    // "editor.fontFamily": "'IBM Plex Mono','MiSans', monospace",
+    // "editor.fontFamily": "'IBMPlexMonoSC','MiSans', monospace",
     // "editor.fontFamily": "'MiWithJBMonoHalfNL','MiSans', monospace",
     // "editor.fontFamily": "'Google Sans Code','MiSans', monospace",
     "editor.lineHeight": 1.6,
-    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontSize": 19,
     "terminal.integrated.fontWeightBold": "normal",
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.color": "#ff7043",
     "material-icon-theme.files.color": "#ff7043",
     "material-icon-theme.folders.theme": "specific",
-
     "editor.stickyScroll.enabled": false,
-    
     //////////// todo tree  =============>>>>>>
     "python.createEnvironment.trigger": "off",
     "python.defaultInterpreterPath": "/home/hanxiao/Python/HXGPyhton/bin/python",
@@ -35,12 +32,9 @@
         "hxg",
         "HXG"
     ],
-
-
     //////////// markdown preview enhanced config path =============>>>>>>
     "markdown-preview-enhanced.configPath": "/home/hanxiao/BackUp_config/some-config-backup/vscode",
     "markdown-preview-enhanced.previewTheme": "github-dark.css",
-
     //////////// C++ settings  =============>>>>>>
     // CMake build directory
     // hxg 这里修改同步修改clangd的--compile-commands-dir参数
@@ -63,12 +57,14 @@
     "clangd.path": "/usr/bin/clangd-21",
     "C_Cpp.clang_format_path": "/usr/bin/clang-format-21",
     "C_Cpp.intelliSenseEngine": "disabled",
-
     //////////// other settings =============>>>>>>
     "files.autoSave": "afterDelay",
     "chat.commandCenter.enabled": true,
     "editor.hover.sticky": false,
     "fittencode.languagePreference.displayPreference": "zh-cn",
     "fittencode.languagePreference.commentPreference": "zh-cn",
-    "workbench.colorTheme": "Default Light Modern"
+    "workbench.colorTheme": "Light Modern",
+    "settingsSync.ignoredExtensions": [
+        "alibaba-cloud.tongyi-lingma"
+    ]
 }

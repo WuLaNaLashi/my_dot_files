@@ -6,7 +6,7 @@
   [[default]]
     allow_bold = False
     background_color = "#ffffff"
-    font = Berkeley Mono weight=375 Condensed 15
+    font = 苹方-简 15
     foreground_color = "#000000"
     scrollback_lines = 9999
     palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
@@ -33,6 +33,7 @@
   [[Catppuccin_Frappe]]
     background_color = "#303446"
     background_image = None
+    font = Ubuntu Sans Mono 10
     foreground_color = "#c6d0f5"
     palette = "#51576d:#e78284:#a6d189:#e5c890:#8caaee:#f4b8e4:#81c8be:#b5bfe2:#626880:#e78284:#a6d189:#e5c890:#8caaee:#f4b8e4:#81c8be:#a5adce"
   [[Catppuccin_Macchiato]]

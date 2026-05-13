@@ -53,6 +53,11 @@ Host remote_60007
   User linaro
   Port 60007
 
+Host remote_60010
+  HostName 123.127.16.69
+  User aiforce
+  Port 60010
+
 Host sixin_111
   HostName 192.168.1.111
   User linaro
