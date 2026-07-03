@@ -198,3 +198,4 @@ alias runmonitor="bash ~/Bash_dir/runmonitor.sh"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 . "$HOME/.cargo/env"
+. "/home/hanxiao/.deno/env"

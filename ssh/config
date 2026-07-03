@@ -4,6 +4,14 @@ Host github.com
   HostName 140.82.112.4
   User git
   
+  
+Host gitee.com
+    HostName gitee.com
+    User git
+    IdentityFile ~/.ssh/id_rsa
+    IdentitiesOnly yes
+  
+  
 Host 22.3
   HostName 192.168.22.3
   User linaro

@@ -141,6 +141,7 @@ alias logsplit='spy && python3 ~/Bash_dir/log_split.py'
 alias zo="~/Zotero_linux-x86_64/zotero"
 alias groot="~/Bin/Groot2/bin/groot2"
 alias cp-debain="bash ~/Bash_dir/debain_cp_arm.sh"
+alias cp-deploy="bash ~/Bash_dir/localbuild_cp_arm.sh"
 alias checkupdate="spy && python ~/Bash_dir/remote_file_checker.py"
 alias mc_logger="spy && python /home/hanxiao/Bash_dir/mc_log_analyzer.py"
 alias remote_deloy="bash ~/Bash_dir/remote_sync_deploy.sh"
@@ -196,3 +197,7 @@ alias ccc='claude'
 alias hwc='nohup wechat > /dev/null 2>&1 &'
 
 alias n='nautilus .'
+. "/home/hanxiao/.deno/env"
+
+# opencode
+export PATH=/home/hanxiao/.opencode/bin:$PATH

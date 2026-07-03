@@ -1,0 +1,2 @@
+/user_id	b05c24aa-c4d6-4bd9-842a-ee5398eb78ba
+/device_name	b05c24aa-c4d6-4bd9-842a-ee5398eb78ba

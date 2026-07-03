@@ -103,3 +103,5 @@ compile_commands.json
 .AppleDouble
 .LSOverride
 Icon?
+
+**/.claude/settings.local.json
