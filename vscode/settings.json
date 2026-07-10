@@ -9,7 +9,6 @@
     // "editor.fontFamily": "'MesloLGLDZ Nerd Font','MiSans', monospace",
     // "editor.fontFamily": "'IBMPlexMonoSC','MiSans', monospace",
     // "editor.fontFamily": "'MiWithJBMonoHalfNL','MiSans', monospace",
-    // "editor.fontFamily": "'Google Sans Code','MiSans', monospace",
     "editor.lineHeight": 1.6,
     "terminal.integrated.fontSize": 19,
     "terminal.integrated.fontWeightBold": "normal",

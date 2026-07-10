@@ -6,7 +6,7 @@
   [[default]]
     allow_bold = False
     background_color = "#ffffff"
-    font = 苹方-简 15
+    font = Ubuntu Sans Mono 15
     foreground_color = "#000000"
     scrollback_lines = 9999
     palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"

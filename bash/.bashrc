@@ -142,7 +142,6 @@ function _dotnet_bash_complete()
 
 complete -f -F _dotnet_bash_complete dotnet
 
-
 # hxg QT
 export PATH=/home/hanxiao/QT/5.9.2/gcc_64/bin:$PATH
 
@@ -182,10 +181,8 @@ alias remote_deloy="bash ~/Bash_dir/remote_sync_deploy.sh"
 alias make_config_backup="bash /home/hanxiao/Bash_dir/make_remote_config_backup.sh"
 alias c="clear"
 
-
 # hxg MATLAB
 export PATH=/home/hanxiao/Matlab/bin:$PATH
-
 
 ulimit -c unlimited
 

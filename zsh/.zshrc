@@ -103,7 +103,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
 alias gcm="git commit -m"
 
 # hxg MATLAB
@@ -114,10 +113,8 @@ export PATH=/home/hanxiao/.dotnet/tools:$PATH
 
 # hxg python venv ---> HXGPython
 # active
-alias spy="source /home/hanxiao/Python/HXGPyhton/bin/activate"
+alias spy="source /home/hanxiao/Python/HXPython-uv/bin/activate"
 # deactive
-
-
 
 # hxg build for arm
 # codesync for sync code from git source to arm_src
@@ -166,10 +163,8 @@ export FZF_DEFAULT_COMMAND='fdfind --type f --follow --strip-cwd-prefix --color=
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_DEFAULT_OPTS="--ansi"
 
-
 # export BAT_THEME="TwoDark"
 export BAT_THEME="ansi"
-
 
 # https://github.com/Waylon-cn/docker_images_sync
 # docker images sync by aliyun & github actions 
@@ -191,7 +186,6 @@ export NVM_DIR="$HOME/.nvm"
 # export ANTHROPIC_MODEL=glm-5.1
 
 alias ccc='claude'
-
 
 # for hxg wechat 
 alias hwc='nohup wechat > /dev/null 2>&1 &'
