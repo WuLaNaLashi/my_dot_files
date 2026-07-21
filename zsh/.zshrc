@@ -138,14 +138,16 @@ alias logsplit='spy && python3 ~/Bash_dir/log_split.py'
 alias zo="~/Zotero_linux-x86_64/zotero"
 alias groot="~/Bin/Groot2/bin/groot2"
 alias cp-debain="bash ~/Bash_dir/debain_cp_arm.sh"
-alias cp-deploy="bash ~/Bash_dir/localbuild_cp_arm.sh"
+alias cp-debain_all="bash ~/Bash_dir/debain_cp_arm_all.sh"
 alias checkupdate="spy && python ~/Bash_dir/remote_file_checker.py"
+alias cp-deploy="bash ~/Bash_dir/localbuild_cp_arm.sh"
+alias cp-deploy_all="bash ~/Bash_dir/localbuild_cp_arm_all.sh"
 alias mc_logger="spy && python /home/hanxiao/Bash_dir/mc_log_analyzer.py"
 alias remote_deloy="bash ~/Bash_dir/remote_sync_deploy.sh"
 alias make_config_backup="bash /home/hanxiao/Bash_dir/make_remote_config_backup.sh"
 alias c="clear"
 
-ulimit -c unlimited
+# ulimit -c unlimited
 
 alias tree='lstr --size --icons --color always'
 

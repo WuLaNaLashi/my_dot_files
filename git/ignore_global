@@ -20,6 +20,17 @@ build_per
 .zed/
 .zed
 analysis/
+AGENTS.md
+**/AGENTS.md
+rootfs_hxg
+rootfs_hxg/**
+ubuntu-base-22.04.5-base-arm64/**
+ubuntu-base-22.04.5-base-arm64
+.zcode
+.zcode/**
+.devcontainer/**
+.devcontainer
+
 
 # ===================== VSC ==========================
 # ===================== VSC ==========================

@@ -1,5 +1,6 @@
 [core]
 	excludesfile = /home/hanxiao/GitIgnoreGlobal/ignore_global
+	commentChar = "#"
 [user]
 	name = hanxiao
 	email = hanxiaoguang@aiforcetech.com

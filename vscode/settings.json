@@ -4,7 +4,7 @@
     //////////// make code beautiful  =============>>>>>>
     // font settings
     "editor.fontSize": 19,
-    "editor.fontFamily": "'BlexMono Nerd Font Text','MiSans', monospace",
+    "editor.fontFamily": "'Cascadia Mono SemiLight',monospace, 'MiSans','Symbols Nerd Font'",
     // "editor.fontFamily": "'Berkeley Mono SemiCondensed','MiSans', monospace",
     // "editor.fontFamily": "'MesloLGLDZ Nerd Font','MiSans', monospace",
     // "editor.fontFamily": "'IBMPlexMonoSC','MiSans', monospace",
@@ -19,7 +19,7 @@
     "editor.stickyScroll.enabled": false,
     //////////// todo tree  =============>>>>>>
     "python.createEnvironment.trigger": "off",
-    "python.defaultInterpreterPath": "/home/hanxiao/Python/HXGPyhton/bin/python",
+    "python.defaultInterpreterPath": "/home/hanxiao/Python/HXPython-uv/bin/python",
     "todo-tree.general.tags": [
         "BUG",
         "HACK",
@@ -66,12 +66,12 @@
     "settingsSync.ignoredExtensions": [
         "alibaba-cloud.tongyi-lingma"
     ],
-    
-    
-        // 控制是否应在键入时自动显示建议。这可以用于在注释、字符串和其他代码中键入时进行控制。可配置快速建议以显示为虚影文本或使用建议小组件显示。另请注意控制建议是否由特殊字符触发的 `editor.suggestOnTriggerCharacters` 设置。
+    // 控制是否应在键入时自动显示建议。这可以用于在注释、字符串和其他代码中键入时进行控制。可配置快速建议以显示为虚影文本或使用建议小组件显示。另请注意控制建议是否由特殊字符触发的 `editor.suggestOnTriggerCharacters` 设置。
     "editor.quickSuggestions": {
         "other": "offWhenInlineCompletions",
         "comments": "off",
         "strings": "on"
     },
+    "todo-tree.ripgrep.ripgrep": "/usr/bin/rg",
+    "window.newWindowProfile": "默认",
 }

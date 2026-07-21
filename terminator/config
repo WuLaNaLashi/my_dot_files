@@ -1,5 +1,6 @@
 [global_config]
   inactive_color_offset = 0.7999999999999999
+  ask_before_closing = never
   always_split_with_profile = True
 [keybindings]
 [profiles]
