@@ -1,0 +1,93 @@
+{
+    // *******************  外观设置 ********************
+    "workbench.colorTheme": "Light Modern",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.color": "#26a69a",
+    "material-icon-theme.files.color": "#ff7043",
+    "material-icon-theme.folders.theme": "classic",
+    "editor.fontLigatures": false,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "off",
+    "editor.stickyScroll.enabled": false,
+    // 备选字体
+    // 'BlexMono Nerd Font Text'
+    // 'Cascadia Mono SemiLight'
+    // 'Tx-02'
+    "editor.fontFamily": "'Intel One Mono',monospace, 'MiSans','Symbols Nerd Font'",
+    "editor.lineHeight": 1.6,
+    "editor.fontSize": 18,
+    // "editor.fontWeight": 350,
+    "editor.rulers": [
+        110
+    ],
+    // "terminal.integrated.fontFamily": "'Tx-02',monospace, 'MiSans','Symbols Nerd Font'",
+    "terminal.integrated.stickyScroll.enabled": false,
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontWeightBold": "normal",
+    // ***************** 基础功能配置 *****************
+    "markdown-preview-enhanced.configPath": "/home/hanxiao/BackUp_config/some-config-backup/vscode",
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "files.insertFinalNewline": true,
+    "files.autoSave": "afterDelay",
+    "chat.commandCenter.enabled": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "todo-tree.ripgrep.ripgrep": "/usr/bin/rg",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "hxg",
+        "HXG"
+    ],
+    //***************** cpp 开发 *****************
+    "cmake.configureOnEdit": true,
+    "cmake.configureOnOpen": true,
+    "cmake.parallelJobs": 8,
+    "cmake.launchBehavior": "breakAndReuseTerminal",
+    "cmake.buildDirectory": "${workspaceFolder}/vscode_cmake_build",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "[cpp]": {
+        "editor.wordBasedSuggestions": "off",
+        "editor.semanticHighlighting.enabled": "configuredByTheme",
+        "editor.suggest.insertMode": "insert",
+        "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+    },
+    "clangd.path": "/usr/bin/clangd-21",
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format-21",
+    "clangd.arguments": [
+        "--background-index",
+        "--compile-commands-dir=vscode_cmake_build",
+        "--clang-tidy",
+        "--completion-style=detailed",
+        "--header-insertion=never",
+        "--all-scopes-completion",
+        "-j=8",
+        "--pch-storage=memory"
+        // "--limit-results=15"
+    ],
+    //////////// other settings =============>>>>>>
+    "chat.viewSessions.orientation": "stacked",
+    "claudeCode.preferredLocation": "panel",
+    "chat.disableAIFeatures": true,
+    // 控制是否应在键入时自动显示建议。这可以用于在注释、字符串和其他代码中键入时进行控制。可配置快速建议以显示为虚影文本或使用建议小组件显示。另请注意控制建议是否由特殊字符触发的 `editor.suggestOnTriggerCharacters` 设置。
+    "editor.quickSuggestions": {
+        "other": "on",
+        "comments": "off",
+        "strings": "on",
+    },
+    "editor.inlineSuggest.showToolbar": "always",
+    "files.exclude": {
+        ".idea": true,
+        ".zed": true,
+        "build": true,
+        "cmake-build*": true,
+        "vscode_cmake_build": true
+    },
+}
+
