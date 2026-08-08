@@ -1,0 +1,16 @@
+--- /tmp/wx_orig_check/super_replacer_orig.lua	2026-08-05 08:35:19.089464767 +0800
++++ lua/wanxiang/super_replacer.lua	2026-08-05 08:21:53.384797914 +0800
+@@ -213,7 +213,12 @@
+     local enabled = {}
+     local current = env.engine.schema.schema_id or ""
+ 
+-    local config = Config("default")
++    -- Config("default") 在部分 librime 版本中未导出为全局函数，用 pcall 保护
++    local config
++    if type(Config) == "function" then
++        local ok_cfg, cfg = pcall(Config, "default")
++        if ok_cfg then config = cfg end
++    end
+     local list = config and config:get_list("schema_list")
+ 
+     if list then
