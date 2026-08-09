@@ -610,3 +610,8 @@ input {
 	background: #777;
 	color: white;
 }
+/* === Font weight clamp: cap bold at Medium (500) for Inter/MiSans === */
+strong, b, th, dt, h1, h2, h3, h4, h5, h6,
+.file-list-item.active .file-list-item-file-name {
+    font-weight: 500 !important;
+}

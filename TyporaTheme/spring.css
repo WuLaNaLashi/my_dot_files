@@ -1104,7 +1104,7 @@ table tbody+tbody,
 
 /* strong */
 strong {
-    font-weight: bold;
+    font-weight: 500;
     color: var(--strong-color);
     font-size: 1.05rem;
     transition: font-size 0.3s ease, padding 0.3s ease;
@@ -1821,4 +1821,10 @@ html {
 
 body {
     font-family: "Inter", "MiSans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* === Font weight clamp: cap bold at Medium (500) for Inter/MiSans === */
+strong, b, th, dt, h1, h2, h3, h4, h5, h6,
+#write h2 {
+    font-weight: 500 !important;
 }

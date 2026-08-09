@@ -1077,3 +1077,8 @@ pre .CodeMirror-linenumber {
         padding: 0.5em 0.7em;
     }
 }
+
+/* === Font weight clamp: cap bold at Medium (500) for Inter/MiSans === */
+strong, b, th, dt, h1, h2, h3, h4, h5, h6 {
+    font-weight: 500 !important;
+}
