@@ -82,13 +82,6 @@ html, body {
 }*/
 
 #write {
-	max-width: 40em;
-}
-
-@media only screen and (min-width: 1400px) {
-	#write {
-			max-width: 914px;
-	}
 }
 
 ol li {
