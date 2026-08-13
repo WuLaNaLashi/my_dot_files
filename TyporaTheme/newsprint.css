@@ -62,7 +62,7 @@ html {
 
 html, body {
 		background-color: #f3f2ee;
-		font-family: "Inter", "MiSans", "PT Serif", 'Times New Roman', Times, serif;
+		font-family: "MiSans", "PT Serif", 'Times New Roman', Times, serif;
 	color: #1f0909;
 	line-height: 1.5em;
 }
@@ -370,7 +370,7 @@ hr {
 }
 
 .md-image>.md-meta{
-	font-family: Menlo, 'Ubuntu Mono', Consolas, 'Courier New', 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', serif;
+	font-family: "JetBrains Mono NL", Menlo, 'Ubuntu Mono', Consolas, 'Courier New', 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', serif;
 }
 
 
@@ -477,7 +477,7 @@ hr {
 }
 
 header, .context-menu, .megamenu-content, footer {
-		font-family: "Inter", "MiSans", "PT Serif", 'Times New Roman', Times, serif;
+		font-family: "MiSans", "PT Serif", 'Times New Roman', Times, serif;
     color: #1f0909;
 }
 
@@ -610,7 +610,7 @@ input {
 	background: #777;
 	color: white;
 }
-/* === Font weight clamp: cap bold at Medium (500) for Inter/MiSans === */
+/* === Font weight clamp: cap bold at Medium (500) for MiSans === */
 strong, b, th, dt, h1, h2, h3, h4, h5, h6,
 .file-list-item.active .file-list-item-file-name {
     font-weight: 500 !important;

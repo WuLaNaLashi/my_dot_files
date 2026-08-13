@@ -44,7 +44,7 @@ html {
 }
 
 body {
-    font-family: "Inter", "MiSans", "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    font-family: "MiSans", "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
     color: rgb(51, 51, 51);
     line-height: 1.6;
 }
@@ -260,6 +260,7 @@ tt {
     padding: 0;
     padding: 2px 4px 0px 4px;
     font-size: 0.9em;
+    font-family: "JetBrains Mono NL", Consolas, "Liberation Mono", Menlo, monospace;
 }
 
 code {
@@ -414,7 +415,7 @@ header, .context-menu, .megamenu-content, footer{
     background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
 }
 
-/* === Font weight clamp: cap bold at Medium (500) for Inter/MiSans === */
+/* === Font weight clamp: cap bold at Medium (500) for MiSans === */
 strong, b, th, dt, h1, h2, h3, h4, h5, h6,
 .file-list-item.active .file-list-item-file-name {
     font-weight: 500 !important;

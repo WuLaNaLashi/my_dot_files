@@ -91,7 +91,7 @@ button,
 input,
 select,
 textarea {
-    font-family: "Inter", "MiSans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
+    font-family: "MiSans", "Helvetica Neue", Helvetica, Arial, 'Segoe UI Emoji', sans-serif;
 }
 
 hr {
@@ -326,7 +326,7 @@ kbd,
 tt,
 var {
     font-size: 0.875em;
-    font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+    font-family: "JetBrains Mono NL", Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
 
 code,
@@ -1015,7 +1015,7 @@ footer.ty-footer {
 .clear-btn-icon {
     top: 8px;
 }
-/* === Font weight clamp: cap bold at Medium (500) for Inter/MiSans === */
+/* === Font weight clamp: cap bold at Medium (500) for MiSans === */
 strong, b, th, dt, h1, h2, h3, h4, h5, h6 {
     font-weight: 500 !important;
 }

@@ -114,7 +114,7 @@ h4 {
 */
 
 body {
-		font-family: "Inter", "MiSans", "Merriweather", "PT Serif", Georgia, "Times New Roman", "STSong", 'Segoe UI Emoji', Serif;
+		font-family: "MiSans", "Merriweather", "PT Serif", Georgia, "Times New Roman", "STSong", 'Segoe UI Emoji', Serif;
 	line-height: 1.5rem;
 	font-weight: 400;
 }
@@ -191,7 +191,7 @@ abbr {
 }
 pre,
 code {
-	font-family: Menlo, Monaco, "Courier New", monospace;
+	font-family: "JetBrains Mono NL", Menlo, Monaco, "Courier New", monospace;
 }
 
 code,
@@ -236,7 +236,7 @@ h5,
 .h5,
 h6,
 .h6 {
-		font-family: "Inter", "MiSans", "Lato", 'Helvetica Neue', Helvetica, sans-serif;
+		font-family: "MiSans", "Lato", 'Helvetica Neue', Helvetica, sans-serif;
 	font-weight: bold;
 	line-height: 1.2;
 	margin: 1em 0 0.5em;
@@ -345,7 +345,7 @@ a {
 	line-height: 1.5em;
 	color: #7a7a7a;
 	background-color: #fafafa;
-		font-family: "Inter", "MiSans", 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+		font-family: "MiSans", 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
 		font-weight: 300;
 		clear: both;
 		padding-left: 0;
@@ -358,7 +358,7 @@ a {
 	font-size:1.1rem;
 }
 .md-tag {
-		font-family: "Inter", "MiSans", 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+		font-family: "MiSans", 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .code-tooltip {
 	background: white;
@@ -482,7 +482,7 @@ a {
 
 /** source code mode */
 #typora-source {
-	font-family: Courier, monospace;
+	font-family: "JetBrains Mono NL", Courier, monospace;
     color: #6A6A6A;
 }
 
@@ -518,7 +518,7 @@ a {
 .dropdown-menu .divider {
 	border-color: #e5e5e5;
 }
-/* === Font weight clamp: cap bold at Medium (500) for Inter/MiSans === */
+/* === Font weight clamp: cap bold at Medium (500) for MiSans === */
 strong, b, th, dt, h1, h2, h3, h4, h5, h6 {
     font-weight: 500 !important;
 }

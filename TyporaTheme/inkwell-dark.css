@@ -30,8 +30,8 @@
     --rawblock-bg-color: #1e2838;
 
     /* ===== Typography ===== */
-    --font-sans: "Inter", "MiSans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-    --font-mono: "JetBrains Mono", "Fira Code", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    --font-sans: "MiSans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    --font-mono: "JetBrains Mono NL", "JetBrains Mono", "Fira Code", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
     --font-size-base: 15px;
     --line-height: 1.75;
 }
@@ -1162,7 +1162,7 @@ pre .CodeMirror-linenumber {
     }
 }
 
-/* === Font weight clamp: cap bold at Medium (500) for Inter/MiSans === */
+/* === Font weight clamp: cap bold at Medium (500) for MiSans === */
 strong, b, th, dt, h1, h2, h3, h4, h5, h6 {
     font-weight: 500 !important;
 }

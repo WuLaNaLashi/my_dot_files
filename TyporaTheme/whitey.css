@@ -8,7 +8,7 @@ html, body {
 	-webkit-font-smoothing: antialiased;
 }
 body {
-		font-family: "Inter", "MiSans", "Vollkorn", Palatino, Times;
+		font-family: "MiSans", "Vollkorn", Palatino, Times;
 	color: #333;
 	line-height: 1.4;
 	text-align: justify;
@@ -98,7 +98,7 @@ blockquote {
 }
 code,
 pre {
-	font-family: "Consolas", "Menlo", "Monaco", monospace, serif;
+	font-family: "JetBrains Mono NL", "Consolas", "Menlo", "Monaco", monospace, serif;
 	font-size: .9em;
 	background: white;
 }
@@ -249,7 +249,7 @@ table tbody+tbody {
 
 /** source code mode */
 #typora-source {
-	font-family: Courier, monospace;
+	font-family: "JetBrains Mono NL", Courier, monospace;
     color: #6A6A6A;
 }
 
@@ -271,7 +271,7 @@ table tbody+tbody {
 .typora-node .file-list-item-parent-loc, 
 .typora-node .file-list-item-time, 
 .typora-node .file-list-item-summary {
-		font-family: "Inter", "MiSans", arial, sans-serif;
+		font-family: "MiSans", arial, sans-serif;
 }
 
 .md-task-list-item>input {
@@ -290,7 +290,7 @@ table tbody+tbody {
 .dropdown-menu .divider {
 	border-color: #e5e5e5;
 }
-/* === Font weight clamp: cap bold at Medium (500) for Inter/MiSans === */
+/* === Font weight clamp: cap bold at Medium (500) for MiSans === */
 strong, b, th, dt, h1, h2, h3, h4, h5, h6 {
     font-weight: 500 !important;
 }

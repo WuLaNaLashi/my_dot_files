@@ -527,7 +527,7 @@ ul ul ul .md-list-item:hover::marker {
 }
 
 ol .md-list-item::marker {
-    font-family: "Inter", "MiSans", "Times New Roman", Times, serif;
+    font-family: "MiSans", "Times New Roman", Times, serif;
     font-size: 20px;
     font-style: italic;
     transition: font-weight 0.2s ease, font-style 0.2s ease, color 0.2s ease, font-size 0.2s ease;
@@ -1165,7 +1165,7 @@ h6 code {
 code {
     background-color: var(--code-bg-color);
     color: var(--code-color);
-    font-family: "Fira Code", Consolas, "Lucida Console", "Courier", monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "JetBrains Mono NL", Consolas, "Lucida Console", "Courier", monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 550;
     margin: 0 2px;
@@ -1234,7 +1234,7 @@ a img {
 
 /* code fences */
 .md-fences {
-    font-family: "Fira Code", Consolas, "Lucida Console", "Courier", monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "JetBrains Mono NL", Consolas, "Lucida Console", "Courier", monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: var(--code-fences-color);
     background-color: var(--code-fences-bg-color);
     padding: 17px;
@@ -1477,7 +1477,7 @@ a img {
 
 /* preferences */
 .ty-preferences {
-    font-family: "Fira Code", Consolas, "Lucida Console", "Courier", monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "JetBrains Mono NL", Consolas, "Lucida Console", "Courier", monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: var(--preferences-color);
 }
 
@@ -1663,7 +1663,7 @@ a img {
 
 /* source code mode */
 #typora-source {
-    font-family: "Fira Code", Consolas, "Lucida Console", "Courier", monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "JetBrains Mono NL", Consolas, "Lucida Console", "Courier", monospace, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: var(--source-color);
 }
 
@@ -1685,7 +1685,7 @@ a img {
 	.typora-node .file-list-item-parent-loc,
 	.typora-node .file-list-item-time,
 	.typora-node .file-list-item-summary {
-	    font-family: "Inter", "MiSans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
+	    font-family: "MiSans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", sans-serif;
 	}
 
 @media print {
@@ -1820,10 +1820,10 @@ html {
 }
 
 body {
-    font-family: "Inter", "MiSans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "MiSans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* === Font weight clamp: cap bold at Medium (500) for Inter/MiSans === */
+/* === Font weight clamp: cap bold at Medium (500) for MiSans === */
 strong, b, th, dt, h1, h2, h3, h4, h5, h6,
 #write h2 {
     font-weight: 500 !important;
