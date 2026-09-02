@@ -184,7 +184,7 @@ alias c="clear"
 # hxg MATLAB
 export PATH=/home/hanxiao/Matlab/bin:$PATH
 
-ulimit -c unlimited
+#ulimit -c unlimited
 
 export PATH=/home/hanxiao/wspace/valgrind/bin:$PATH
 

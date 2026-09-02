@@ -75,4 +75,16 @@
     "files.insertFinalNewline": true,
     "chat.viewSessions.orientation": "stacked",
     "workbench.colorTheme": "Default Light Modern",
+        "workbench.colorCustomizations": {
+        // Git 修改标记
+        "editorGutter.modifiedBackground": "#41ae3c",
+        "editorGutter.modifiedSecondaryBackground": "#41ae3c",
+        // Git 新增/删除
+        "editorGutter.addedBackground": "#41b349",
+        "editorGutter.deletedBackground": "#41b349",
+        // 右侧 Overview Ruler
+        "editorOverviewRuler.modifiedForeground": "#41ae3c",
+        "editorOverviewRuler.addedForeground": "#41b349",
+        "editorOverviewRuler.deletedForeground": "#41b349",
+    },
 }

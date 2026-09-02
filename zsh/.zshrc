@@ -133,8 +133,9 @@ alias spy="source /home/hanxiao/Python/HXPython-uv/bin/activate"
 # alias armb="bash ~/Bash_dir/build_for_arm.sh" 
 # alias runmonitor="~/Bin/msg_monitor"
 
-alias logplot='spy && python3 ~/Bash_dir/log_plot.py'
 alias logsplit='spy && python3 ~/Bash_dir/log_split.py'
+alias logplot='spy && python3 ~/Bash_dir/log_plot.py'
+alias rawcanp='spy && python3 ~/Bash_dir/raw_can_parser.py'
 alias zo="~/Zotero_linux-x86_64/zotero"
 alias groot="~/Bin/Groot2/bin/groot2"
 alias cp-debain="bash ~/Bash_dir/debain_cp_arm.sh"
@@ -146,11 +147,11 @@ alias mc_logger="spy && python /home/hanxiao/Bash_dir/mc_log_analyzer.py"
 alias remote_deloy="bash ~/Bash_dir/remote_sync_deploy.sh"
 alias make_config_backup="bash /home/hanxiao/Bash_dir/make_remote_config_backup.sh"
 alias c="clear"
-
+alias fast-log-ana="spy && python3 ~/Bash_dir/analyze-ctl-log"
 # ulimit -c unlimited
 
 alias tree='lstr --size --icons --color always'
-
+alias cat='batcat'
 alias sshr='bash ~/Bash_dir/ssh_remote.sh'
 
 # zsh-autosuggestions config
@@ -197,3 +198,6 @@ alias n='nautilus .'
 
 # opencode
 export PATH=/home/hanxiao/.opencode/bin:$PATH
+
+
+alias simb='ninja -j6 abline_planning_node decision_semi_auto_node control_semi_auto_node boustrophedon_fishtail_planning_node seed_decision_auto_node seed_control_auto_node boustrophedon_bulb_planning_node harrow_decision_auto_node staggered_spiral_planning_node staggered_spiral_decision_auto_node'

@@ -30,6 +30,20 @@ ubuntu-base-22.04.5-base-arm64
 .zcode/**
 .devcontainer/**
 .devcontainer
+bt_optimizer_output/**
+bt_optimizer_output
+.codegraph
+.codegraph/**
+.claude
+.claude/**
+**/tmp_data
+**/tmp_data/**
+
+# Python cache directories
+**/__pycache__/
+
+# Python compiled files
+**/*.py[cod]
 
 
 # ===================== VSC ==========================

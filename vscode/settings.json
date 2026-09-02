@@ -74,4 +74,5 @@
     },
     "todo-tree.ripgrep.ripgrep": "/usr/bin/rg",
     "window.newWindowProfile": "默认",
-}
+    "claudeCode.preferredLocation": "panel",
+    }

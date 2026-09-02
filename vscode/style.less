@@ -5,18 +5,34 @@
 .markdown-preview.markdown-preview {
   // modify your style here
   // eg: background-color: blue;
-  font-family: "MiWithJBMonoHalfNL", "MiSans","Source Han Sans SC", sans-serif;
-  font-size: 16px
+  font-family: "MiSans", "Source Han Sans SC", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
 }
 
-  /* 1. 控制「所有代码块」 */
+/* 1. 控制「所有代码块」 */
 .markdown-preview .code,
 .markdown-preview pre code {
-  font-family: "MiWithJBMonoHalfNL", "Source Code Pro", "Consolas", monospace;
+  font-family: "JetBrains Mono NL", "Source Code Pro", "Consolas", monospace;
+  line-height: 1.5;
 }
 
 /* 2. 控制「行内代码」 */
 .markdown-preview code:not(pre code) {
-  font-family: "MiWithJBMonoHalfNL", monospace;
+  font-family: "JetBrains Mono NL", monospace;
   font-size: 0.9em;
+}
+
+/* 3. 限制字重上限为 Medium (500)，避免 MiSans 渲染出过粗的标题/加粗 */
+.markdown-preview strong,
+.markdown-preview b,
+.markdown-preview h1,
+.markdown-preview h2,
+.markdown-preview h3,
+.markdown-preview h4,
+.markdown-preview h5,
+.markdown-preview h6,
+.markdown-preview th,
+.markdown-preview dt {
+  font-weight: 500;
 }

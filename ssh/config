@@ -1,5 +1,6 @@
 #: for github.com if not useful plz check ip adress
 #: https://www.ipaddress.com/website/github.com/
+
 Host github.com
   HostName 140.82.112.4
   User git
@@ -98,3 +99,8 @@ Host tx2_test
 Host planning_server
   HostName 192.168.60.166
   User ubuntu
+
+Host ALL-SFW
+  HostName 192.168.22.160
+  User aiforce
+  Port 12345
