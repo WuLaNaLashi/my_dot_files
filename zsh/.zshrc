@@ -165,6 +165,7 @@ export FZF_COMPLETION_TRIGGER='`'
 export FZF_DEFAULT_COMMAND='fdfind --type f --follow --strip-cwd-prefix --color=always'
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_DEFAULT_OPTS="--ansi"
+source <(fzf --zsh)
 
 # export BAT_THEME="TwoDark"
 export BAT_THEME="ansi"
