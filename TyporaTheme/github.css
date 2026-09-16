@@ -402,7 +402,10 @@ header, .context-menu, .megamenu-content, footer{
     background-image: linear-gradient( 180deg , hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0)); 
 }
 
-/* === Font weight clamp: cap bold at Medium (500) for MiSans === */
+/* === Font weight clamp: headings/table 500, inline bold 600 === */
+strong, b {
+    font-weight: 600 !important;
+}
 strong, b, th, dt, h1, h2, h3, h4, h5, h6,
 .file-list-item.active .file-list-item-file-name {
     font-weight: 500 !important;

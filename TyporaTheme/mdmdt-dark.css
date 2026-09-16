@@ -2750,7 +2750,10 @@ body.typora-export {
     }
   }
 }
-/* === Font weight clamp: cap bold at Medium (500) for MiSans === */
-strong, b, th, dt, h1, h2, h3, h4, h5, h6 {
+/* === Font weight clamp: headings/table 500, inline bold 600 === */
+strong, b {
+    font-weight: 600 !important;
+}
+th, dt, h1, h2, h3, h4, h5, h6 {
     font-weight: 500 !important;
 }

@@ -151,7 +151,7 @@ alias fast-log-ana="spy && python3 ~/Bash_dir/analyze-ctl-log"
 # ulimit -c unlimited
 
 alias tree='lstr --size --icons --color always'
-alias cat='batcat'
+alias catt='batcat'
 alias sshr='bash ~/Bash_dir/ssh_remote.sh'
 
 # zsh-autosuggestions config
